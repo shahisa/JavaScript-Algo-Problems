@@ -43,10 +43,10 @@ function palindromes (str){
   	var regex = /[^0-9a-zA-Z]/g; // var regex = /[\W_]/g; works too.
   	str = str.toLowerCase().replace(regex, '');
 
-  	var length = str.length();
+  	var length = str.length ;
 
   	for (var i = 0; i < length/2; i++){
-  		if (str[i] !== str[len - 1 - i]){
+  		if (str[i] !== str[length - 1 - i]){
   			return false
   		}
   	}
