@@ -1,5 +1,11 @@
 # JavaScript Algorithm Problems
 
+## This Project
+
+I want to improve my performance in technical interviews. Thus I'm creating this "Blog" to track, a problem I work on each day. The language  chosen for this is JavaScript. JavaScript being one of the most popular programming languages and generally one of the first languages a developer learns. I hope this "blog" also helps others solve problems. 
+
+The questions come from a variety of places arcoss the internet and books. 
+
 ## Reverse a String 
 Given a string value, the program must return the reverse of the string. 
 

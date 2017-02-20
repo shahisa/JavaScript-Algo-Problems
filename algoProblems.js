@@ -46,6 +46,10 @@ function palindromes (str){
 // Reverse the Vowels of a String
 
 function vowelReverse(str){
+
+	// I attempting to use RegEx to solve this problem
+	// I have seen a loop solution to the check if a letter is a vowel
+	// I dont want to use that, I want constant time solution
 	str = str.split("");
 	str = str.reverse("/^[aeiou]$/i")
 	str = str.join();
