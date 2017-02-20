@@ -16,3 +16,18 @@ For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
 
 No solution has current been given by me. 
 
+## Reverse the vowels in a String
+
+Write a function that takes a string as input and reverse only the vowels of a string.
+
+Example 1:
+Given s = "hello", return "holle".
+
+Example 2:
+Given s = "leetcode", return "leotcede".
+
+Note:
+The vowels does not include the letter "y".
+
+No current solution given by me. 
+

@@ -3,7 +3,7 @@
 function reverseAStirng(str){
 	str = str.split("");
 	str = str.reverse();
-	str = str.join();
+	str = str.join("");
 
 	return str 
 }
@@ -14,6 +14,7 @@ function factorializeNum (num){
 	// This should apply to all code that is either 0 or 1
 	// I used "===" because these are strictly equal values, meaning they have the same 
 	// value and type
+	// Factorial of Zero has to return 1 also. 
 	if (num === 0 || num === 1)
 		return 1
 	
@@ -23,4 +24,31 @@ function factorializeNum (num){
 		num = num*i;
 	}
 	return num
+}
+
+// There is a recusive solution to this problem.
+// We just will call this factorialize
+function factorialize (num){
+	return num 
+}
+
+// Check for Palindromes
+
+function palindromes (str){
+	
+	str = str.toLowerCase();
+  	str = str.replace(/[^0-9a-zA-Z]/g,'');
+  	var newStr = str.reverse();
+  	
+	return true
+}
+
+// Reverse the Vowels of a String
+
+function vowelReverse(str){
+	str = str.split("");
+	str = str.reverse("/^[aeiou]$/i")
+	str = str.join();
+
+	return str 
 }
