@@ -47,11 +47,20 @@ function palindromes (str){
 
   	for (var i = 0; i < length/2; i++){
   		if (str[i] !== str[length - 1 - i]){
-  			return false
+  			return false;
   		}
   	}
   	
-	return true
+	return true;
+}
+
+function palindrome (str){
+
+	var regEx = /[\W_]/g;
+	str = str.toLowerCase().replace(regEx, '');
+	var reverseStr = str.split('').reverse().join('');
+
+	return reverseStr === str; 
 }
 
 // Reverse the Vowels of a String
