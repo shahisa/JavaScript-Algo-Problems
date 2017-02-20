@@ -36,9 +36,20 @@ function factorialize (num){
 
 function palindromes (str){
 	
-	str = str.toLowerCase();
-  	str = str.replace(/[^0-9a-zA-Z]/g,'');
-  	var newStr = str.reverse();
+	//str = str.toLowerCase();
+  	//str = str.replace(/[^0-9a-zA-Z]/g,'');
+  	// This can all be done on one line. 
+
+  	var regex = /[^0-9a-zA-Z]/g; // var regex = /[\W_]/g; works too.
+  	str = str.toLowerCase().replace(regex, '');
+
+  	var length = str.length();
+
+  	for (var i = 0; i < length/2; i++){
+  		if (str[i] !== str[len - 1 - i]){
+  			return false
+  		}
+  	}
   	
 	return true
 }
@@ -48,11 +59,11 @@ function palindromes (str){
 function vowelReverse(str){
 
 	// I attempting to use RegEx to solve this problem
-	// I have seen a loop solution to the check if a letter is a vowel
-	// I dont want to use that, I want constant time solution
+	// The will have to use a loop the first solution that came to mind didn't work. 
+
 	str = str.split("");
-	str = str.reverse("/^[aeiou]$/i")
-	str = str.join();
+	//str = str.reverse("/^[aeiou]$/i")
+	str = str.join("");
 
 	return str 
 }
