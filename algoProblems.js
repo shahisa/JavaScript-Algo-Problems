@@ -74,3 +74,9 @@ function vowelReverse(str){
 
 	return str 
 }
+
+// Find the Longest Word in a String
+
+function findLongestWord(str){
+	return str.length
+}
