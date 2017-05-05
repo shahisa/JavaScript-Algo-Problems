@@ -95,6 +95,15 @@ queue.push(987,839,303);// push() is used to put items in the Array
 var shiftEx = queue.shift(); // queue = [839,303]
 console.log(shiftEx); // shiftEx = 987
 
+// Implement a Stack Using Queues
+/*
+push(x) -- Push element x onto stack.
+pop() -- Removes the element on top of the stack.
+top() -- Get the top element.
+empty() -- Return whether the stack is empty.
+*/
+
+
 // Creating a Linked List
 function LinkedList(){
 	this.head = null; // This is the head property (a pointer)
