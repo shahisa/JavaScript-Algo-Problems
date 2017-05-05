@@ -81,6 +81,13 @@ function findLongestWord(str){
 	return str.length
 }
 
+// Stack
+var stack = []; // A stack is an Array that uses the structure LIFO; this line initializes it
+stack.push(10); // push() puts an item into the Array. So the value is now 10
+stack.push(20); // stack = [10,20]
+stack.push(30,40,50,75,85,90,100); // stack = [10,20,30,40,50,75,85,90,100]
+var popEx = stack.pop(); // stack = [10,20,30,40,50,75,85,90]
+console.log(popEx);
 // Creating a Linked List
 function LinkedList(){
 	this.head = null; // This is the head property (a pointer)
