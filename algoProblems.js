@@ -87,7 +87,14 @@ stack.push(10); // push() puts an item into the Array. So the value is now 10
 stack.push(20); // stack = [10,20]
 stack.push(30,40,50,75,85,90,100); // stack = [10,20,30,40,50,75,85,90,100]
 var popEx = stack.pop(); // stack = [10,20,30,40,50,75,85,90]
-console.log(popEx);
+console.log(popEx); // popEx = 100
+
+//Queue
+var queue =[]; // A queue is an Array that uses the structure FIFO
+queue.push(987,839,303);// push() is used to put items in the Array
+var shiftEx = queue.shift(); // queue = [839,303]
+console.log(shiftEx); // shiftEx = 987
+
 // Creating a Linked List
 function LinkedList(){
 	this.head = null; // This is the head property (a pointer)
