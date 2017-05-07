@@ -42,6 +42,9 @@ Return the length of the longest word in the provided sentence.
 
 Your response should be a number.
 
+Note:
+Currently have one solution it use the sort() method. 
+
 ## Linked List
 This series will go through the basic creation of a
 linked list, the different types and problems are asked for linked list.
