@@ -76,9 +76,16 @@ function vowelReverse(str){
 }
 
 // Find the Longest Word in a String
+//Return a Number
 
 function findLongestWord(str){
-	return str.length
+	var strSplit = str.split(" "); // Make sure to add the space, if like ("") it will split everyletter instead of word.
+	// The next part we use the sort(). It sorts an array by numbers, the Upper case, then lower case
+	var longestWord = strSplit.sort(function(a,b){
+		return b.length - a.length
+	});
+
+	return longestWord[0].length // Without the .length part it would return the longest word
 }
 
 // Stack
