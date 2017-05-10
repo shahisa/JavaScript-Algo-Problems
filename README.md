@@ -22,6 +22,10 @@ For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
 
 No solution has current been given by me.
 
+## Determine if String has all unique characters
+Implement an algorithm to determine if a string has all unique characters. What
+if you cannot use additional data structures?
+
 ## Reverse the vowels in a String
 
 Write a function that takes a string as input and reverse only the vowels of a string.
@@ -43,7 +47,7 @@ Return the length of the longest word in the provided sentence.
 Your response should be a number.
 
 Note:
-Currently have one solution it use the sort() method. 
+Currently have one solution it use the sort() method.
 
 ## Linked List
 This series will go through the basic creation of a

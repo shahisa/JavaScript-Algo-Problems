@@ -30,6 +30,23 @@ function factorialize (num){
 	return num
 }
 
+// Unique Characters String
+
+funciton uniqueChar (str){
+	var hTable = {} // This creates a hashtable or an associative array. Which is an array that uses Strings instead of Integers as an index.
+	for(var i=0; len = str.lenght; i <len; i++){ // interate through all the characters in the string
+		if (hTable[str[i]!= null]){ // make sure the string/table is not empty
+			hTable[str[i]] = 1; //Insert the characters in the hashtable and check if the characters already exist
+			return false  // if it doesn't the string is not unique
+		}else{
+			hTable[str[i]] =0;
+		}
+	}
+	return true
+} // Time complexity is O(n) since we are iterating one time 
+
+
+
 // Check for Palindromes
 
 function palindromes (str){
