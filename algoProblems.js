@@ -3,7 +3,7 @@
 function reverseAStirng(str){
 	str = str.split('').reverse().join('');
 
-	return str
+	return str // I don't know the time complexity of the split(), reverse(), and join() methods.
 }
 
 // Factorialize a Number
@@ -21,7 +21,7 @@ function factorializeNum (num){
 	for (var i = num -1; i >= 1; i--){
 		num = num*i;
 	}
-	return num
+	return num // Time complexity is O(n)
 }
 
 // There is a recusive solution to this problem.
@@ -43,7 +43,7 @@ funciton uniqueChar (str){
 		}
 	}
 	return true
-} // Time complexity is O(n) since we are iterating one time 
+} // Time complexity is O(n) since we are iterating one time
 
 
 
